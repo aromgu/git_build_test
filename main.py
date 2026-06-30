@@ -2,11 +2,11 @@ import requests
 
 
 
-def say_hello(text: str):
-    data = {
-        "content": text
-    }    
-    requests.post(webhook_url, json=data)
+import math, sys;
 
-if __name__ == "__main__":
-    say_hello("ㅇㅅㅇ")
+class Example(   object ):
+    def __init__    ( self, bar ):
+      if bar : bar+=1;  bar=bar* bar   ; return bar
+      else:
+                    some_string = "foo"
+                    return (sys.path, some_string)
